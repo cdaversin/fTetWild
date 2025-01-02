@@ -1,0 +1,22 @@
+name: ftetwild_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - numpy
+  - numpy-indexed
+  - pyvista
+  - scikit-image
+  - meshio
+  - nibabel
+  - pip
+  - typer
+  - pykdtree
+  - libopenblas=*=*openmp*
+  - mumps-mpi>=5.7.3
+  - mpich
+  - gmp
+  - pip:
+    - cmap
+    - git+https://github.com/cdaversin/wildmeshing-python
+
